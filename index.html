@@ -6,6 +6,7 @@
 <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://use.fontawesome.com/80629a5936.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
@@ -63,6 +64,14 @@ text-transform: uppercase;
 
 .positivitaynavborder{
 border-top: 0px solid #000;
+}
+
+#about{
+width: 90%;
+margin: 0 auto;
+padding: 4% 0 0 0;
+display: none;
+font-weight: 300;
 }
 
 #ddc{
@@ -167,6 +176,15 @@ font-size: 0.8em;
 font-weight: 400;
 }
 
+#footer a{
+color: #000;
+text-decoration: none;
+}
+
+.fa{
+font-size: 2.5em;
+}
+
 @media all and (max-width: 823px){
 
 }
@@ -235,7 +253,7 @@ font-weight: 400;
 <li>
     <a href="#" target="_blank"><img src="images/positivitay.jpg"><br />
     <h1>20% off</h1>
-    <h2>bubly Blackberry Sparkling Water - 8pk/12 fl oz Cans</h2>
+    <h2>bubly Blackberry Sparkling Water - 8pk/12</h2>
     <h3>$19.99 <span>$49.99</span></h3>
     </a>
 </li>
@@ -247,10 +265,62 @@ font-weight: 400;
     <h3>$19.99 <span>$49.99</span></h3>
     </a>
 </li>
+
+<li>
+    <a href="#" target="_blank"><img src="images/positivitay.jpg"><br />
+    <h1>20% off</h1>
+    <h2>Red Bull Energy Drink - Energy Drink - 12 fl oz Can</h2>
+    <h3>$19.99 <span>$49.99</span></h3>
+    </a>
+</li>
+
+<li>
+    <a href="#" target="_blank"><img src="images/positivitay.jpg"><br />
+    <h1>20% off</h1>
+    <h2>Canada Dry Cranberry Ginger Ale - 2 L Bottle</h2>
+    <h3>$19.99 <span>$49.99</span></h3>
+    </a>
+</li>
+
+<li>
+    <a href="#" target="_blank"><img src="images/positivitay.jpg"><br />
+    <h1>20% off</h1>
+    <h2>LaCroix Grapefruit Sparkling Water - 8pk/12 fl oz Cans</h2>
+    <h3>$19.99 <span>$49.99</span></h3>
+    </a>
+</li>
+
+<li>
+    <a href="#" target="_blank"><img src="images/positivitay.jpg"><br />
+    <h1>20% off</h1>
+    <h2>Starbucks Pike Place Medium Roast Coffee - Keurig K-Cup Pods - 16ct</h2>
+    <h3>$19.99 <span>$49.99</span></h3>
+    </a>
+</li>
+
+</ul>
 </div>
 </div>
 
-<div id="footer">&#169; 2020 Positivitay</div>
+<div id="about">
+A small project personal project.
+</div>
+
+<div id="footer">
+<a href="https://instagram.com/morepositivitay" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://twitter.com/morepositivitay" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<br /><br />
+&#169; 2020 Positivitay | <a  id="abouta" href="#about">About</a>
+</div>
+
+<script>
+$("#abouta").click(function(){
+	$("#ddc").hide();
+	$("#about").show();
+	$("#footer").css("position","absolute");
+	$("#footer").css("bottom","0");
+});
+</script>
 <!--
 <script>
 
