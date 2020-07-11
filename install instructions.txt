@@ -1,0 +1,15 @@
+Firefox
+1) Go to Settings
+2) Go to Add Ons
+3) Click the Gear Icon
+4) Click Debug Add Ons
+5) Click "Load Temporary Add-on"
+6) Select the Zip file
+
+Chrome / Edge
+1) Go to Settings
+2) Go to Extensions
+3) Enable "Developer Mode"
+4) Click "Load Unpackaged" extension
+5) Select the Zip file
+
